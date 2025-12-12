@@ -46,7 +46,7 @@ if ESCOLHA == "Editar":
     
  ##População de algumas Cidades da Europa   
 if ESCOLHA=="Guardar":
-    st.title("Guardado")
+    st.title("Guardando")
     s=pd.Series([909976, 8615246, 2872086, 2273305], name="População", index=["Estocolmo", "Londres", "Roma", "Paris"])
     fig, axes = plt.subplots(1, 4, figsize=(12, 3))
     s.plot(ax=axes[0], kind='line', title='linha')
@@ -61,6 +61,7 @@ if ESCOLHA == "Enviar":
 
     
     
+
 
 
     
